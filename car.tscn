@@ -163,7 +163,7 @@ transform = Transform3D(1, 0, 2.38419e-07, 0, 1, 0, -2.38419e-07, 0, 1, -0.80727
 use_as_steering = true
 wheel_roll_influence = 0.01
 wheel_rest_length = 0.2
-wheel_friction_slip = 1.0
+wheel_friction_slip = 10.0
 suspension_stiffness = 120.0
 
 [node name="FrontLeft" parent="." instance=ExtResource("3_hvnpe")]
@@ -171,7 +171,7 @@ transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 0.792011
 use_as_steering = true
 wheel_roll_influence = 0.01
 wheel_rest_length = 0.2
-wheel_friction_slip = 1.0
+wheel_friction_slip = 10.0
 suspension_stiffness = 120.0
 
 [node name="BackRight" parent="." instance=ExtResource("2_tckoq")]
@@ -179,7 +179,7 @@ transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, -0.80727
 use_as_traction = true
 wheel_roll_influence = 0.01
 wheel_rest_length = 0.2
-wheel_friction_slip = 1.0
+wheel_friction_slip = 10.0
 suspension_stiffness = 80.0
 
 [node name="BackLeft" parent="." instance=ExtResource("3_hvnpe")]
@@ -187,5 +187,5 @@ transform = Transform3D(1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, 0.792011
 use_as_traction = true
 wheel_roll_influence = 0.01
 wheel_rest_length = 0.2
-wheel_friction_slip = 1.0
+wheel_friction_slip = 10.0
 suspension_stiffness = 80.0
