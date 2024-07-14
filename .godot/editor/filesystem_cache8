@@ -1,3 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1720958587
+::res://::1720959721
 icon.svg::CompressedTexture2D::6233078456173509925::1720958583::1720958587::1::::<><>::
+car.tscn::PackedScene::9106591619106250784::1720959055::0::1::::<><>::res://car.gd
+env.tscn::PackedScene::200673726700900256::1720959041::0::1::::<><>::uid://d20kh65tygkom::::res://car.tscn
+car.gd::GDScript::-1::1720959054::0::1::::<>VehicleBody3D<>::
+Sportwagen.glb::PackedScene::3825058115049141555::1720959740::1720959742::1::::<><>::
+wheel.tscn::PackedScene::9220671447227916611::1720959071::0::1::::<><>::

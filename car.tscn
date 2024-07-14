@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://d20kh65tygkom"]
+
+[ext_resource type="Script" path="res://car.gd" id="1_3dj2y"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_so2j1"]
+size = Vector3(1, 0.384766, 0.476318)
+
+[node name="Node3D" type="VehicleBody3D"]
+script = ExtResource("1_3dj2y")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0458069, 0)
+size = Vector3(1, 0.396545, 0.474365)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.045166, 0)
+shape = SubResource("BoxShape3D_so2j1")
