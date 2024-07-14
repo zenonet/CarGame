@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cn51418ataiuk"]
+
+[ext_resource type="PackedScene" uid="uid://cvfcvpji2ekik" path="res://front_right_wheel.tscn" id="1_rqp63"]
+
+[node name="VehicleWheel3D" type="VehicleWheel3D"]
+
+[node name="FrontRightWheel" parent="." instance=ExtResource("1_rqp63")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)

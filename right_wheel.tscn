@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4mtd18q48k1p"]
+
+[ext_resource type="PackedScene" uid="uid://cvfcvpji2ekik" path="res://front_right_wheel.tscn" id="1_i5ti5"]
+
+[node name="VehicleWheel3D" type="VehicleWheel3D"]
+
+[node name="FrontRightWheel" parent="." instance=ExtResource("1_i5ti5")]
